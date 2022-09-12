@@ -1,5 +1,4 @@
-// Using ECMAScript modules system, enabled by adding "type": "module"
-// to package.json and ".mjs" file extension (optional)
+// Using ECMAScript modules system, enabled by adding "type": "module" to package.json
 // For more: https://nodejs.org/api/esm.html#enabling
 import express from 'express';
 
