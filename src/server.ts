@@ -1,5 +1,3 @@
-// Using ECMAScript modules system, enabled by adding "type": "module" to package.json
-// For more: https://nodejs.org/api/esm.html#enabling
 import express from 'express';
 
 const app = express();
@@ -10,6 +8,7 @@ app.get('/ads', (request, response) => {
     { id: 1, name: 'Ad 1' },
     { id: 2, name: 'Ad 2' },
     { id: 3, name: 'Ad 3' },
+    { id: 4, name: 'Ad 4' },
   ]);
 });
 
